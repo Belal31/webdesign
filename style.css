@@ -1,0 +1,124 @@
+
+.wrapper{
+    width: 960px;
+    
+    margin: auto;
+}
+.header{
+    background-image: url("img/computer.jpg");
+    padding: 24px;
+    
+    overflow: hidden;
+    
+    
+}
+.header h2{
+    text-align: center;
+    color: #ffffff;
+}
+.header p{
+    text-align: center;
+    color: #ffffff;
+}
+.header a{
+    background-color:#333333;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 46%;
+    border-radius: 5px;
+    
+}
+.nav {
+
+background-color: #EAEAEA;
+padding: 10px;
+overflow: hidden;
+}
+.nav h3{
+    text-align: center;
+}
+.nav .nav_div {
+    display: inline-block;
+    text-align: center;
+}
+.nav .nav_div .left{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    background-color: #EAEAEA;
+}
+.nav_div .right{
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+    background-color: #EAEAEA;
+}
+.nav_div .right p ,.nav .nav_div .left p {
+    text-align: center;
+    
+}
+.main_part{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333333;
+}
+
+.main_div1{
+    width: 200px;
+    background-color: #fff;
+    display: inline-block;
+    overflow: hidden;
+
+}
+.main_div1 img{
+    width: 200px;
+    height: 100px;
+    
+}
+
+.article{
+    background-color: #fff;
+    padding: 15px;
+}
+.article h3{
+    text-align: center;
+}
+.article p{
+    text-align: center;
+}
+.aside {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.left {
+    width: 50%;
+    float: left;
+    background-color: #2690D4;
+    padding: 25px 0px;
+    text-align: center;
+}
+.left p {
+    margin: 0;
+}
+.right{
+    width: 50%;
+    float: left;
+    background-color: #dddd;
+    padding: 25px 0px;
+    text-align: center;
+}
+.right p {
+    margin: 0;
+}
+footer{
+    background-color: #000000;
+    padding: 4px;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
